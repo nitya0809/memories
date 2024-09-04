@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love Memories</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            margin: 40px 0;
+            color: #ff6f61;
+            font-family: 'Cursive', sans-serif;
+        }
+        .memory-card {
+            border: 1px solid #ffccd5;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            flex: 1 1 300px;
+
+        }
+        .memory-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-color: #fff0f5;
+            border: 1px solid #ff6f61;
+            color: #ff6f61;
+            font-family: 'Cursive', sans-serif;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-decoration: underline;
+            text-decoration-color: #ff6f61;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            transition: all 0.2s ease-in-out;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .memory-card:hover .heart-icon {
+            color: #ff6f61;
+        }
+        .memory-card img {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .memory-card h3 {
+            color: #ff6f61;
+            font-family: 'Cursive', sans-serif;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-decoration: underline;
+            text-decoration-color: #ff6f61;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            transition: all 0.2s ease-in-out;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .memory-card p {
+            color: #555;
+            font-size: 14px;
+            margin: 0;
+            text-align: center;
+            line-height: 1.5;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-decoration: underline;
+            text-decoration-color: #ff6f61;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+            transition: all 0.2s ease-in-out;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .heart-icon {
+            color: #ff6f61;
+            font-size: 1.5rem;
+            margin-right: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-decoration: underline;
+            text-decoration-color: #ff6f61;
+        }
+        .header {
+            text-align: center;
+            margin: 40px 0;
+            color: #ff6f61;
+            font-family: 'Cursive', sans-serif;
+        }
+        .heart-icon {
+            color: #ff6f61;
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">My Best Love Memories <span class="heart-icon">❤️</span></h1>
+        <p>Today marks one year since we first met on September 5th, and I can't help but smile as I think about how much has changed since that day. Meeting you a year ago was the best thing that could have happened to me.
+
+            You’ve brought so much joy and love into my life. Your laughter brightens my days, and your kindness and support have made everything better. Every moment we’ve shared has been special, and I feel so lucky to have you by my side.
+            
+            September 5th is a very important day for me now because it reminds me of the start of something amazing. Our journey together has been incredible, and I’m so grateful for all the happiness you’ve given me. I look forward to many more anniversaries and wonderful moments with you.
+            
+            Thank you for everything, and here’s to many more years of love and memories together.</p><br>
+            <p>lets remind our best memories?, (ofc, with you everything is best but some best of best)</p><br>
+        <div class="row">
+            <!-- Memory 1 -->
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img1.jpeg" alt="Memory 1">
+                    <h3>THE BABYBOY❤</h3>
+                    <p>yK, that time i slept at the night mtlb internet khtm hoo gya tha, firr na subh subh when i saw these messages bhyiii, i just skiped the heartbeat specially for the word bayboy, bhyii i still dont know how to express what i feel when youu say me babyboy or bachuu, like tbh- 9th May kii morning itni achi hui thi na meri jitni aaj tk kbhi nhii hui hai</p>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other memories -->
+            <!-- Memory 2 -->
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img2.jpeg" alt="Memory 2">
+                    <h3>OFC FIRST TIME MEETING</h3>
+                    <p> Yes, the heartbeats were high, we were high on anxiety, couldnt even make the eye contact, still communicated with the silence, that was our love which helps us to communicate even when we were silenct, soulmates for the reaosn? (yes ofc), and sorry i wasnt having any other pic for this day</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img3.jpeg" alt="Memory 3">
+                    <h3>The flowers</h3>
+                    <p> may be a simple flowers but i love them, i love them because i love the person who gave me these, i will always remember them nmw/p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img4.jpeg" alt="Memory 4">
+                    <h3>Myy keychain</h3>
+                    <p> Yes , ik that wasnt a keychain but that was my keychain, that was my first gift given by you haina?, that was soo special for me, but woh tut gya merese galti se sorry😓, the Memory is still present in my mind and it will be there only  </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img5.jpeg" alt="Memory 5">
+                    <h3>Our first date </h3>
+                    <p> it was 9th nov, day started with your call, it was the first time we were going anywhere outside , woh bhe clg bunk krke, bit tensed ki ghr pr na pta chal jaye, but okk nhii chala pta and we successfully had our first date?, like idk what it was but i will term it as a park date, the moments we shared, the time we spent, mereko apki godi mai sonne ko bhee mil gya , then that spin arround, the art you did on my hand evertthing was just awesome and amazing </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img6.jpeg" alt="Memory 6">
+                    <h3> Unforgetable </h3>
+                    <p> Tbh- i never expected this much, but iss din pata chala kii when i m with sonaskhi nothing is enough, being with this girl means enjoying the moments which i didnt even expects to be happen, this notes are the proof that she can change my mood anthing , ofc because i m BIRDYY'S BACCHUU </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="memory-card">
+                    <img src="img7.jpeg" alt="Memory 7">
+                    <h3> Treking the love mountain </h3>
+                    <p> That was your first trek and after a long wait of 5 days, we finally made it we went there, haan the route wasnt easy to climb but the ending was haina?, we were all alone there, just 2 of us, lipstick bhe taste krne koo milla and finally we had our photos, did whatever we expected , enjoyed the moment, the place the environment </p>
+                </div>
+            </div>
+        </div> <br>
+        <p>Thank you for all the memories! I didnt include all these because that was a lot, i missed some of them sorry, but mene starting mai hee bola tha kii everything with you is special toh sab jizze thodi add kr skta tha naa, but i added some of them to relive our past year</p>
+        <p> the moment of 5th sept 2023 nearly 11 o'clock, it will be in my mind, that was the most precious day for me, thank you for making it special sona!! </p>
+        <p> lets just enjoy the 5th sept 2024 with same enjoyment , spending time with you and making memories together thats all we both want and thats what we are doing rn! </p>
+        <p>apka gift bhe hai mere pass, ask for it okay?, that will make it more special</p>
+        <p>and sorry yee sab thoda jaldi mai bnaya hai mtlb kam time mai hee bnaya hai toh itna jyda kuch acha kr nhi paya, but theek theek toh bna diya, ab i atleast want hug and a kiss, like ik abhi toh radhika hogi apne satth park mai but koi nhi i will wait, kal chaiye hee mereko idk anything</p><BR> <BR><br>
+    </div>
+    <footer class="footer">I LOVE YOU SOO MUCH AND FOREVER!</footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
